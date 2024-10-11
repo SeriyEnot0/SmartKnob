@@ -210,4 +210,9 @@ transition: transform 500ms ease;
 button:hover{
 transform: translateY(-5px);
 }
+@media (max-width: 480px) {
+  input{
+    padding-right: 20px;
+  }
+}
 </style>
