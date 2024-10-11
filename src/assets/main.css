@@ -38,6 +38,7 @@ body {
   margin-bottom: 20px;
 }
 .hero-content h3{
+  font-size: 48px;
   width: 38%;
 }
 
@@ -205,11 +206,18 @@ body {
 /* -------------------------------  */
 .feedback-container {
   background-color: #272626;
+  color: #fff;
   display: flex;
-  height: 80vh;
+  height: 70vh;
 }
 
 /* Стили для левой части: Форма обратной связи */
+.feedback-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .feedback-form-container {
   flex: 1;
   display: flex;
@@ -379,6 +387,7 @@ body {
   }
   .cta-section h2,
   .contact-form h2 {
+     text-align: center;
       font-size: 24px;
   }
   .feature-item h3{

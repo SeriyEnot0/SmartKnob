@@ -96,7 +96,6 @@
 <a id="section1"></a>
 <div class="feedback-form-container">
 <form @submit.prevent="submitForm">
-<h2>Оставьте заявку</h2>
 <input type="text" name="name" placeholder="Введите имя" v-model="name"/>
 <input type="text" name="lastname" placeholder="Введите фамилию" v-model="lastname"/>
 <input type="text" name="lastlastname" placeholder="Введите Отчество" v-model="lastlastname"/>
@@ -182,13 +181,12 @@ if (result.success) {
 
 <style scoped>
 input{
-max-width: 100%;
 display: block;
-margin-bottom: 10%;
-border-radius: 5%;
+margin-bottom: 10px;
+border-radius: 5px;
 border: 1px solid silver;
 outline: none;
-padding-right: 30%;
+padding-right: 100px;
 padding-left: 5%;
 padding-top: 5%;
 padding-bottom: 5%;
