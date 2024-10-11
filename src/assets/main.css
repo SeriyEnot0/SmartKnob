@@ -383,7 +383,8 @@ body {
 }
 @media (max-width: 480px) {
   .grid-items {
-    grid-template-columns: 1fr; /* Уменьшаем количество столбцов до 1 */
+    grid-template-columns: 1fr; /* Уменьшаем количество столбцов до 1 
+    dsdsdsdsdsds*/
   }
   .cta-section h2,
   .contact-form h2 {
