@@ -13,7 +13,7 @@ body {
 }
 /* Первый блок */
 .hero {
-  background-image: url("/img/render_end.png");
+  background-image: url("/render_end.png");
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -91,7 +91,7 @@ body {
 
 /* Третий блок */
 .grid-section {
-	background: url("/img/women.png");
+	background: url("/women.png");
 	background-size: cover;
   color: #fff;
   padding: 40px 20px;
